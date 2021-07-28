@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 48px;
+}
+
+/* common color */
+.bg-orange{
+    background: #e76f51;
+}
+.orange-color{
+    color: #e76f51;
+}
+.banner-color{
+    background: #264653;
+}
+.pra-color{
+    color: #e0e0e0;
+}
+.ft-color{
+    background: #0b0d17;
+}
+
+/* ==========================
+    Nav part start
+============================= */
+nav{
+    z-index: 9999;
+}
+nav ul li a{
+    color: #fff !important;
+}
+/* ==========================
+    Nav part end
+============================= */
+/* ==========================
+    Banner part start
+============================= */
+#banner-part{
+    position: relative;
+}
+/* ==========================
+    Banner part end
+============================= */
+/* ==========================
+    Feature part start
+============================= */
+#feature .title p{
+    position: relative;
+}
+#feature .title p::before{
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: 30px;
+    height: 1px;
+    background: #e76f51;
+}
+.gray-scale {
+    filter: grayscale(100%);
+  }
+/* ==========================
+    Feature part end
+============================= */
+/* ==========================
+    Client part Start
+============================= */
+#client img{
+    width: 150px;
+    height: 150px;
+}
+/* ==========================
+    Client part end
+============================= */
+/* ==========================
+    News part Start
+============================= */
+#client i{
+    color: #e76f51;
+}
+/* ==========================
+    News part end
+============================= */
+/* ==========================
+    Footer part Start
+============================= */
+footer ul li{
+    margin-right: 15px;
+}
+footer i{
+    font-size: 40px;
+}
+/* ==========================
+    Footer part end
+============================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
